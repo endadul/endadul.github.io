@@ -1,0 +1,3198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Endadul Hoque is an Assistant Professor in the Department of Electrical Engineering and Computer Science at Syracuse University (SU). Before joining SU, he was an Assistant Professor in the SCIS at Florida International University (FIU). He received his Ph.D. in Computer Science from Purdue University. After his PhD, he was a Postdoctoral Research Associate at Northeastern University. His research revolves around practical cybersecurity problems in the networking domain, where the overarching goal is to create automated techniques to achieve higher assurance on networked systems, including real-world implementations of network protocols and IoT systems.">
+    <meta name="author" content="Endadul Hoque">
+    <meta name="keywords" content="networking, security, distributed systems, program analysis, cybersecurity, formal verification, systems security, Syracuse university, computer science">
+
+    <title>Endadul Hoque - Syracuse University</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <!-- <link href="css/agency.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet/less" type="text/css" href="less/variables.less" />
+    <link rel="stylesheet/less" type="text/css" href="less/mixins.less" /> -->
+
+    <!-- <link rel="stylesheet/less" type="text/css" href="less/agency.less" /> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59005853-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-59005853-1');
+    </script>
+
+    <!-- Google analytics -->
+    <!--
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-59005853-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    -->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Endadul Hoque</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#research">Research</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#teaching">Teaching</a>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown">Other
+                        <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu dropmenu-style">
+                        <li><a class="page-scroll" href="#service">Service</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="cv.pdf">Download CV</a></li>
+                        <li class="divider"></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="intro-text">
+          <div class="intro-photo">
+            <img class="img-circle img-responsive img-centered" src="img/me.jpg" alt="" >
+          </div>
+          <div class="shade-panel">
+            <div class="intro-heading">Endadul Hoque</div>
+            <div class="intro-lead-in">
+              <!-- Affiliation -->
+              <ul class="list-unstyled">
+                <li class="small">Assistant Professor</li>
+                <li class="small">Dept. of EECS</li>
+                <li class="small">Syracuse University</li>
+                <li class="small">
+                  <strong>
+                    <span class="text-primary">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <!--<i class="fa fa-envelope-square fa-1x" aria-hidden="true"></i>-->
+                    &nbsp;
+                    enhoque AT syr.edu</span>
+                  </strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a> -->
+      </div>
+    </header>
+
+    <!-- Highlight section -->
+    <!-- <section id="about">
+        <div class="container">
+            <div class="row text-center bg-danger">
+              <p>I am looking for students
+              </p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">About Me</div>
+                    <!-- <h3 class="section-subheading text-normal">Small BIO goes here</h3> -->
+                    <p class="large text-normal text-left">
+                      I am an <strong>Assistant Professor</strong> in the <a href="http://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/">Department of Electrical Engineering and Computer Science</a> at <a href="https://www.syracuse.edu/">Syracuse University (SU)</a>. Before joining SU, I was
+                      an <strong>Assistant Professor</strong> in the <a href="https://www.cis.fiu.edu/">School of Computing and Information Sciences</a>
+                      at <a href="http://www.fiu.edu/">Florida International University (FIU)</a> .
+                      I received my Ph.D. in Computer Science from
+                      from the <a href="https://www.cs.purdue.edu/">Department of Computer Science</a> at
+                      <a href="https://www.purdue.edu/">Purdue University</a>
+                      under the supervision of <a href="http://www.ccs.neu.edu/home/crisn/">Prof. Cristina Nita-Rotaru</a>
+                      in 2015. During 2016, I was a Postdoctoral Research Associate
+                      at <a href="http://www.ccis.northeastern.edu/">Northeastern University</a>
+                      (Host: <a href="http://www.ccs.neu.edu/home/crisn/">Prof. Cristina Nita-Rotaru</a>).</p>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+              <div class="col-sm-4 col-md-4">
+                  <a class="hyper-icons" href="#positions" data-toggle="modal">
+                    <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                  <div class="caption-upper">Academic positions</div>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                  <a class="hyper-icons" href="#education" data-toggle="modal">
+                    <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                  <div class="caption-upper">Education</div>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                  <a class="hyper-icons" href="#awards" data-toggle="modal">
+                    <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-trophy fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                  <div class="caption-upper">Awards and Grants</div>
+              </div>
+            </div>
+
+            <!-- =================================================
+                      Announcement panel (design same as news panel)
+              ==================================================-->
+            <div class="row news-panel text-left">
+              <!-- Extra panel -->
+                <div class="panel panel-danger">
+                  <div class="panel-heading">
+                    <div class="panel-title panel-title-style">
+                      <i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp; Announcements
+                    </div>
+                  </div>
+                  <div class="panel-body">
+                    <div class="newsList">
+
+                      <!-- === Start of a announcement  item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Fall 2020</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+
+                              I am currently looking for motivated graduate and undergraduate students
+                              who are interested in <strong>security of computer networks and systems, IoT security, vulnerability
+                              detection, and program analysis</strong>.
+                              If interested, please contact me through <strong>email</strong>.
+
+                          </div>
+                        </div>
+                        <div class="col-sm-1 detail-btn pull-right">
+                        </div>
+                      </div><!--news-item-->
+                      <!-- === End of a announcement item == -->
+
+
+                    </div><!-- announcement List -->
+                  </div>
+                </div><!-- outermost panel for announcement -->
+            </div> <!-- End of announcement panel and the row -->
+            <!-- ==== End of announcement panel ==== -->
+
+
+            <!-- ==============================
+                      NEWS panel
+              ===============================-->
+            <div class="row news-panel text-left">
+              <!-- Extra panel -->
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <div class="panel-title panel-title-style">
+                      <i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp; Latest News
+                    </div>
+                  </div>
+                  <div class="panel-body">
+                    <div class="newsList">
+
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">May 2023</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            Our paper "Maverick" has been published in ACM WiSec 2023
+                          </div>
+                        </div>
+                        <div class="col-sm-1 pull-right">
+                        </div>
+                      </div><!--news-item-->
+                      <!-- === End of a NEWS item == -->
+
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Apr 2022</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            Received Google Research Scholar Award 2022
+                          </div>
+                        </div>
+                        <div class="col-sm-1 pull-right">
+                        </div>
+                      </div><!--news-item-->
+                      <!-- === End of a NEWS item == -->
+
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Nov 2021</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            Two papers published in ACM CCS 2021
+                          </div>
+                        </div>
+                        <div class="col-sm-1 pull-right">
+                        </div>
+                      </div><!--news-item-->
+                      <!-- === End of a NEWS item == -->
+
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Aug 2020</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            Our project <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007512" target="_blank">Retrofitting IoT Ecosystems with a Software-defined Overlay to Enforce Safety, Security, and Privacy Policies</a> (in collaboration with <a href="https://homepage.divms.uiowa.edu/~comarhaider/" target="_blank">Omar Chowdhury</a>) has been funded under the NSF CNS Core program. Thanks NSF!
+                          </div>
+                        </div>
+                        <div class="col-sm-1 pull-right">
+                          <span class="fa-stack fa-2x" style="color:Tomato">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-trophy fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </div>
+                      </div><!--news-item-->
+                      <!-- === End of a NEWS item == -->
+
+
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Jul 2019</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            I will join <a href="http://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/">EECS@Syracuse</a> as an Assistant Professor from Fall 2019
+                          </div>
+                        </div>
+                        <div class="col-sm-1 pull-right">
+                        </div>
+                      </div><!--news-item-->
+                      <!-- === End of a NEWS item == -->
+
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Feb 2018</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            Received <strong>Cisco Network Security Distinguished Paper Award</strong>
+                            for our <a href="pubs/TCPwn-NDSS2018.pdf">TCPwn</a> paper
+                            at <a href="http://www.ndss-symposium.org/ndss2018/">NDSS 2018</a>
+                            (<em>one of the top security conferences</em>)
+                          </div>
+                        </div>
+                        <div class="col-sm-1 pull-right">
+                          <!-- <span style="color:Tomato">
+                            <i class="fa fa-trophy fa-2x"></i>
+                          </span> -->
+                          <span class="fa-stack fa-2x" style="color:Tomato">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-trophy fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </div>
+                      </div><!--news-item-->
+                      <!-- === End of a NEWS item == -->
+
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Oct 2017</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            Our paper "<strong>TCPwn</strong>" has been accepted in
+                            <a href="http://www.ndss-symposium.org/ndss2018/">NDSS 2018</a>
+                            (<em>one of the top security conferences</em>)
+                          </div>
+                        </div>
+                        <div class="col-sm-1 detail-btn pull-right">
+                          <button class="btn detail-btn-type" type="button" data-toggle="collapse" aria-expanded="false"
+                            data-target="#news2017c"  aria-controls="news2017c">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                          </button>
+                        </div>
+                      </div><!--news-item-->
+
+                      <!-- news details of the previous item -->
+                      <div class="collapse" id="news2017c">
+                        <div class="panel detail-panel">
+                          <div class="panel-body detail-text">
+                            Our paper titled "<strong>Automated Attack Discovery in TCP Congestion
+                              Control Using a Model-guided Approach</strong>"
+                              has been accepted at <strong>
+                                <a href="http://www.ndss-symposium.org/ndss2018/">NDSS Symposium 2018</a></strong>.
+                              Many congratulations to <a href="http://sjero.net/">Samuel Jero</a> and the rest of the team.
+                              We received excellent reviews; here is an excerpt:
+                              "<em>This is a really cool paper -- One of those that make
+                              you wish you had thought of the idea! It takes a classical
+                              problem and presents a refreshing new take on it [...]</em>"
+                          </div>
+                        </div>
+                      </div>
+                      <!-- === End of a NEWS item == -->
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Oct 2017</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            Our <a href="https://users.cs.fiu.edu/~ehoque/pubs/Symcert-SP2017.pdf">SymCerts</a> paper has been selected as a finalist for the
+                            <a href="https://csaw.engineering.nyu.edu/research/finalists">CSAW’17 Applied Research Competition</a>
+                          </div>
+                        </div>
+                        <div class="col-sm-1 detail-btn pull-right">
+                        </div>
+                      </div><!--news-item-->
+
+                      <!-- === End of a NEWS item == -->
+
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Mar 2017</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            Our paper "<strong>CHIRON</strong>" has been accepted in <a href="http://dsn2017.github.io/">DSN 2017</a>
+                          </div>
+                        </div>
+                        <div class="col-sm-1 detail-btn pull-right">
+                          <button class="btn detail-btn-type" type="button" data-toggle="collapse" aria-expanded="false"
+                            data-target="#news2017b"  aria-controls="news2017b">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                          </button>
+                        </div>
+                      </div><!--news-item-->
+
+                      <!-- news details of the previous item -->
+                      <div class="collapse" id="news2017b">
+                        <div class="panel detail-panel">
+                          <div class="panel-body detail-text">
+                            Our paper titled "<strong>Analyzing Operational
+                              Behavior of Stateful Protocol
+                              Implementations for Detecting Semantic Bugs</strong>"
+                              has been accepted at
+                              <strong><a href="http://dsn2017.github.io/">IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) 2017</a></strong>.
+                              Many congratulations to <a href="https://www.cs.purdue.edu/homes/schau/">Sze Yiu Chau</a> and
+                              <a href="http://homepage.divms.uiowa.edu/~comarhaider/">Omar Chowdhury</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- === End of a NEWS item == -->
+
+
+                      <!-- === Start of a NEWS item == -->
+                      <div class="row news-item">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                        <div class="col-sm-2 col-md-2">
+                          <!-- date -->
+                          <div class="news-date">
+                            <span class="date-value">Feb 2017</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-9 col-md-9">
+                          <!-- content -->
+                          <div class="news-content">
+                            Our paper "<strong>SymCerts</strong>" has been accepted in
+                            <a href="http://www.ieee-security.org/TC/SP2017/index.html">IEEE S&amp;P 2017</a>
+                            (<em>the top security conference</em>, also known as <strong>Oakland</strong>)
+                          </div>
+                        </div>
+                        <div class="col-sm-1 detail-btn pull-right">
+                          <button class="btn detail-btn-type" type="button" data-toggle="collapse" aria-expanded="false"
+                            data-target="#news2017a"  aria-controls="news2017a">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                          </button>
+                        </div>
+                      </div><!--news-item-->
+
+                      <!-- news details of the previous item -->
+                      <div class="collapse" id="news2017a">
+                        <div class="panel detail-panel">
+                          <div class="panel-body detail-text">
+                            Our paper titled "<strong>SymCerts: Practical
+                              Symbolic Execution For Exposing Noncompliance in
+                              X.509 Certificate Validation Implementations</strong>"
+                              has been accepted at <strong>
+                                <a href="http://www.ieee-security.org/TC/SP2017/">IEEE Symposium on
+                                  Security and Privacy (S&amp;P) 2017</a></strong>.
+                              [<em>Acceptance rate: 13%</em>]
+                              Many congratulations to <a href="https://www.cs.purdue.edu/homes/schau/">Sze Yiu Chau</a>
+                              and <a href="http://homepage.divms.uiowa.edu/~comarhaider/">Omar Chowdhury</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- === End of a NEWS item == -->
+
+                    </div><!-- newsList -->
+                  </div>
+                </div><!-- outermost panel for news -->
+            </div> <!-- End of news panel and the row -->
+
+            <!-- ==== End of news panel ==== -->
+
+
+        </div> <!-- container of about section -->
+    </section>
+
+
+
+    <!-- position modals -->
+    <div class="portfolio-modal modal fade" id="positions" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <div class="modal-content-title">Positions</div>
+                                <dl class="dl-horizontal">
+                                  <!-- Position (start) -->
+                                  <dt>
+                                    <div class="duration">
+                                      <button type="button" class="btn-static time-start" disabled="disabled">2019</button>
+                                      <button type="button" class="btn-static time-end" disabled="disabled">present</button>
+                                    </div>
+                                  </dt>
+                                  <dd>
+                                    <h4 class="lower-heading">Assistant professor</h4>
+                                    <h4 class="lower-heading">
+                                      <a href="https://www.syr.edu/">Syracuse University</a>
+                                    </h4>
+                                  </dd>
+                                  <!-- Position (End) -->
+
+                                  <dt>
+                                    <div class="duration">
+                                      <button type="button" class="btn-static time-start" disabled="disabled">2017</button>
+                                      <button type="button" class="btn-static time-end" disabled="disabled">2019</button>
+                                    </div>
+                                  </dt>
+                                  <dd>
+                                    <h4 class="lower-heading">Assistant professor</h4>
+                                    <h4 class="lower-heading">
+                                      <a href="https://www.cis.fiu.edu/">Florida International University</a>
+                                    </h4>
+                                  </dd>
+
+                                  <dt>
+                                    <div class="duration">
+                                      <button type="button" class="btn-static time-start" disabled="disabled">2016</button>
+                                      <button type="button" class="btn-static time-end" disabled="disabled">2017</button>
+                                    </div>
+                                  </dt>
+                                  <dd>
+                                    <h4 class="lower-heading">Postdoctoral Research Associate</h4>
+                                    <h4 class="lower-heading">
+                                      <a href="http://www.ccis.northeastern.edu/">Northeastern University</a>
+                                    </h4>
+                                  </dd>
+                                </dl>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>&nbsp; Close window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Education modal -->
+    <div class="portfolio-modal modal fade" id="education" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <div class="modal-content-title">Education</div>
+
+                                <dl class="dl-horizontal">
+                                  <dt>
+                                    <span class="fa-stack fa-2x special-icon">
+                                      <i class="fa fa-calendar-o fa-stack-2x"></i>
+                                      <strong class="fa-stack-1x calendar-text icon-text">2015</strong>
+                                    </span>
+                                  </dt>
+                                  <dd>
+                                    <h4 class="lower-heading">PhD in Computer Science</h4>
+                                    <h5><a href="https://www.cs.purdue.edu">Dept. of Computer Science</a></h5>
+                                    <h4 class="lower-heading">
+                                      <a href="https://www.purdue.edu">Purdue University</a>
+                                    </h4>
+                                  </dd>
+
+                                  <dt>
+                                    <span class="fa-stack fa-2x special-icon">
+                                      <i class="fa fa-calendar-o fa-stack-2x"></i>
+                                      <strong class="fa-stack-1x calendar-text icon-text">2010</strong>
+                                    </span>
+                                  </dt>
+                                  <dd>
+                                    <h4 class="lower-heading">MS in Computer Science</h4>
+                                    <h5><a href="http://www.marquette.edu/mscs/">Dept. of MSCS</a></h5>
+                                    <h4 class="lower-heading"><a href="http://www.marquette.edu/">Marquette University</a></h4>
+                                  </dd>
+
+                                  <dt>
+                                    <span class="fa-stack fa-2x special-icon">
+                                      <i class="fa fa-calendar-o fa-stack-2x"></i>
+                                      <strong class="fa-stack-1x calendar-text icon-text">2008</strong>
+                                    </span>
+                                  </dt>
+                                  <dd>
+                                    <h4 class="lower-heading">BSc in Computer Science and Engineering</h4>
+                                    <h5><a href="https://cse.buet.ac.bd/">Dept. of Computer Science and Engineering</h5>
+                                    <h4 class="lower-heading">
+                                      <a href="http://www.buet.ac.bd/">Bangladesh University of Engineering and Technology (BUET)</a>
+                                    </h4>
+                                  </dd>
+
+                                </dl>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>&nbsp; Close window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Awards modal -->
+    <div class="portfolio-modal modal fade" id="awards" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <div class="modal-content-title">Awards and Grants</div>
+
+                                <!--=== Awards list (follows the newsList style) == -->
+                                <div class="row news-panel text-left">
+                                  <!-- Extra panel -->
+                                    <div class="panel panel-success">
+                                      <div class="panel-heading">
+                                        <div class="panel-title panel-title-style">
+                                          <i class="fa fa-trophy" aria-hidden="true"></i>&nbsp; Awards
+                                        </div>
+                                      </div>
+                                      <div class="panel-body">
+                                        <div class="newsList">
+
+                                          <!-- === Start of a AWARD item == -->
+                                          <div class="row news-item">
+                                            <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                                            <div class="col-sm-3 col-md-2">
+                                              <!-- date -->
+                                              <div class="news-date">
+                                                <span class="date-value">Feb 2018</span>
+                                              </div>
+                                            </div>
+                                            <div class="col-sm-8 col-md-9">
+                                              <!-- content -->
+                                              <div class="news-content">
+                                                Received <strong>Cisco Network Security Distinguished Paper Award</strong>
+                                                for our <a href="pubs/TCPwn-NDSS2018.pdf">TCPwn</a> paper
+                                                at <a href="http://www.ndss-symposium.org/ndss2018/">NDSS 2018</a>
+                                                (<em>one of the top security conferences</em>)
+                                              </div>
+                                            </div>
+                                            <div class="col-sm-1 detail-btn pull-right">
+                                              &nbsp;
+                                            </div>
+                                          </div><!--award-item-->
+                                          <!-- === End of a AWARD item == -->
+
+
+                                          <!-- === Start of an AWARD item == -->
+                                          <div class="row news-item">
+                                            <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                                            <div class="col-sm-3 col-md-2">
+                                              <!-- date -->
+                                              <div class="news-date">
+                                                <span class="date-value">Mar 2015</span>
+                                              </div>
+                                            </div>
+                                            <div class="col-sm-8 col-md-9">
+                                              <!-- content -->
+                                              <div class="news-content">
+                                                <strong>Bilsland Dissertation Fellowship Award</strong> in 2015
+                                                from the Graduate School at Purdue University for outstanding academic record
+                                              </div>
+                                            </div>
+                                            <div class="col-sm-1 detail-btn pull-right">
+                                              <button class="btn detail-btn-type" type="button" data-toggle="collapse" aria-expanded="false"
+                                                data-target="#award2015a"  aria-controls="award2015a">
+                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                              </button>
+                                            </div>
+                                          </div><!--news-item-->
+
+                                          <!-- Details of the previous item -->
+                                          <div class="collapse" id="award2015a">
+                                            <div class="panel detail-panel">
+                                              <div class="panel-body detail-text">
+                                                About this award: The Bilsland Dissertation Fellowship provides support to outstanding
+                                                Ph.D. candidates in their final year of doctoral degree completion.
+                                                Bilsland Fellows are expected to devote full-time effort to the
+                                                completion of all doctoral degree requirements to receive the doctoral
+                                                degree at the conclusion of the fellowship tenure.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <!-- === End of a AWARD item == -->
+
+
+                                          <!-- === Start of a AWARD item == -->
+                                          <div class="row news-item">
+                                            <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                                            <div class="col-sm-3 col-md-2">
+                                              <!-- date -->
+                                              <div class="news-date">
+                                                <span class="date-value">April 2014</span>
+                                              </div>
+                                            </div>
+                                            <div class="col-sm-8 col-md-9">
+                                              <!-- content -->
+                                              <div class="news-content">
+                                                <strong>Graduate Teaching Fellowship</strong> award in 2014
+                                                from Dept. of Computer Science at Purdue University
+                                              </div>
+                                            </div>
+                                            <div class="col-sm-1 detail-btn pull-right">
+                                              <!-- <button class="btn detail-btn-type" type="button" data-toggle="collapse" aria-expanded="false"
+                                                data-target="#award2014a"  aria-controls="award2014a">
+                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                              </button> -->
+                                            </div>
+                                          </div><!--news-item-->
+
+                                          <!-- Details of the previous item -->
+                                          <!-- <div class="collapse" id="award2014a">
+                                            <div class="panel detail-panel">
+                                              <div class="panel-body detail-text">
+                                                News details. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                                ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                                sapiente ea proident.
+                                              </div>
+                                            </div>
+                                          </div> -->
+                                          <!-- === End of a AWARD item == -->
+
+                                        </div><!-- newsList -->
+                                      </div>
+                                    </div><!-- outermost panel for news -->
+                                </div> <!-- End of news panel and the row -->
+
+                                <!-- ==== End of AWARD List ==== -->
+
+
+                                <!--=== Grant list (follows the newsList style) == -->
+                                <div class="row news-panel text-left">
+                                  <!-- Extra panel -->
+                                    <div class="panel panel-primary">
+                                      <div class="panel-heading">
+                                        <div class="panel-title panel-title-style">
+                                          <i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;
+                                          Grants
+                                        </div>
+                                      </div>
+                                      <div class="panel-body">
+                                        <div class="newsList">
+
+                                          <!-- === Start of an Grant item == -->
+                                          <div class="row news-item">
+                                            <!-- <div class="col-sm-3 col-md-4 col-lg-2 text-right"> -->
+                                            <div class="col-sm-2 col-md-2">
+                                              <!-- date -->
+                                              <div class="news-date">
+                                                <span class="date-value">Aug 2020</span>
+                                              </div>
+                                            </div>
+                                            <div class="col-sm-9 col-md-9">
+                                              <!-- content -->
+                                              <div class="news-content">
+                                                Our project <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007512" target="_blank">Retrofitting IoT Ecosystems with a Software-defined Overlay to Enforce Safety, Security, and Privacy Policies</a> (in collaboration with <a href="https://homepage.divms.uiowa.edu/~comarhaider/" target="_blank">Omar Chowdhury</a>) has been funded under the NSF CNS Core program. Thanks NSF!
+                                              </div>
+                                            </div>
+                                            <!-- <div class="col-sm-1 detail-btn pull-right">
+                                              <button class="btn detail-btn-type" type="button" data-toggle="collapse" aria-expanded="false"
+                                                data-target="#award2017a"  aria-controls="award2017a">
+                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                              </button>
+                                            </div> -->
+                                          </div>
+                                          <!--news-item-->
+
+                                          <!-- Details of the previous item -->
+                                          <!-- <div class="collapse" id="award2017a">
+                                            <div class="panel detail-panel">
+                                              <div class="panel-body detail-text">
+                                                News details. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                                ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                                sapiente ea proident.
+                                              </div>
+                                            </div>
+                                          </div> -->
+                                          <!-- === End of a GRANT item == -->
+
+
+                                        </div><!-- List -->
+                                      </div>
+                                    </div><!-- outermost panel for news -->
+                                </div> <!-- End of news panel and the row -->
+
+                                <!-- ==== End of Grant List ==== -->
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>&nbsp; Close window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Research Section -->
+    <section id="research" class="bg-light-gray portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Research</h2>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                    <p class="large text-normal text-left">
+                      My research focuses on <strong>security of computer networks and systems</strong>. Software of computer
+                      networks and systems continues to have exploitable vulnerabilities, which are lucrative targets for
+                      adversaries. Within this broad domain, my particular emphasis is on <strong>automated detection of
+                      vulnerabilities</strong> as well as <strong> creating resilient protocols and systems</strong>.
+                      My research primarily builds
+                      on and expands <strong>program analysis</strong>, <strong>software engineering</strong>, and
+                      <strong>formal verification</strong>. My interests span several
+                      domains of computing, including network communication protocols, operating systems, distributed systems,
+                      Internet-of-Things (<strong>IoT</strong>) systems, and embedded devices.
+                    </p>
+                </div>
+            </div>
+            <!-- intentional gap -->
+            <div class="row">
+              <p>&nbsp;</p>
+            </div>
+
+            <!-- thumbnails for projects -->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#semanticbugProject" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/compliance.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="lower-heading">Semantic bug detection via compliance checking</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#project2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/troubleshooting.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="lower-heading">Vulnerable Execution Discovery in Internet Security Protocols</h4>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div> -->
+
+            </div><!-- end of project thumbnails row -->
+        </div><!-- container -->
+    </section>
+
+    <!-- Publication Section -->
+    <section id="publications">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">Publications</div>
+                <p class="Xlarge thin-heading text-left">
+                  For full publication list, click &nbsp;
+                  <a class="btn btn-info" href="#publist" data-toggle="modal">
+                    <i class="fa fa-list" aria-hidden="true"></i>
+                  </a>
+                </p>
+            </div>
+        </div>
+
+        <!-- selected publication -->
+        <div class="row publications-panel">
+          <!-- Extra panel -->
+            <div class="panel panel-warning">
+            <div class="panel-heading">
+              <div class="panel-title panel-title-style">
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbsp; Selected Publications
+              </div>
+            </div>
+            <div class="panel-body">
+
+              <div class="publicationList">
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">Maverick: An App-independent and Platform-agnostic Approach
+                    to Enforce Policies in IoT Systems at Runtime</div>
+                    <ul>
+                      <li class="paper-authors">M. Hammad Mazhar, Li Li, Endadul Hoque, and Omar Chowdhury</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        ACM Conference on Security and Privacy in Wireless and Mobile Networks
+                        (<a href="https://wisec2023.surrey.ac.uk/" target="_blank">WiSec</a>), United Kindom, May 2023.
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="https://dl.acm.org/doi/pdf/10.1145/3558482.3590188"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button"
+                      href="https://doi.org/10.1145/3558482.3590188"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#"  aria-controls="">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">All your Credentials are Belong to Us: On Insecure
+                      WPA2-Enterprise Configurations</div>
+                    <ul>
+                      <li class="paper-authors">Man Hong Hue, Joyanta Debnath, Kin Man Leung, Li Li, Mohsen Minaei,
+                        M. Hammad Mazhar, Kailiang Xian, Endadul Hoque, Omar Chowdhury, and Sze Yiu Chau</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        ACM SIGSAC Conference on Computer and Communications
+                        Security (<a href="https://www.sigsac.org/ccs/CCS2021/" target="_blank">CCS</a>), Korea, Nov 2021.
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="https://doi.org/10.1145/3460120.3484569"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button"
+                      href="https://doi.org/10.1145/3460120.3484569"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#"  aria-controls="">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">Morpheus: Bringing The (PKCS) One To Meet the Oracle</div>
+                    <ul>
+                      <li class="paper-authors">Moosa Yahyazadeh, Sze Yiu Chau, Li Li, Man Hong Hue, Joyanta Debnath,
+                        Sheung Chiu Ip, Li Chun Ngai, Endadul Hoque, and Omar Chowdhury</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        ACM SIGSAC Conference on Computer and Communications
+                        Security (<a href="https://www.sigsac.org/ccs/CCS2021/" target="_blank">CCS</a>), Korea, Nov 2021.
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="https://doi.org/10.1145/3460120.3485382"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button"
+                      href="https://doi.org/10.1145/3460120.3485382"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#"  aria-controls="">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">PatrIoT: Policy Assisted Resilient Programmable IoT System</div>
+                    <ul>
+                      <li class="paper-authors">Moosa Yahyazadeh, Syed Rafiul Hussain, Endadul Hoque, and Omar Chowdhury</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        International Conference on Runtime verification
+                        (<a href="https://rv20.ait.ac.at/" target="_blank">RV</a>),
+                        Los Angeles, CA, USA, Oct 2020.
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="/pubs/Patriot-RV2020.pdf"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button"
+                      href="https://link.springer.com/chapter/10.1007/978-3-030-60508-7_8"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#"  aria-controls="">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+
+
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">aBBRate: Automating BBR Attack Exploration Using a
+                      Model-Based Approach</div>
+                    <ul>
+                      <li class="paper-authors">Anthony Peterson, Samuel Jero, Endadul Hoque,
+                        Dave Choffnes, and Cristina Nita-Rotaru</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        International Symposium on Research in Attacks, Intrusions and Defenses
+                        (<a href="https://raid2020.org/" target="_blank">RAID</a>),
+                        San Sebastian, Spain, Oct 2020.
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="/pubs/BBR-RAID2020.pdf"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button"
+                      href="https://www.usenix.org/system/files/raid20-peterson.pdf"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#"  aria-controls="">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">A Formal Security Analysis of ZigBee (1.0 and 3.0)</div>
+                    <ul>
+                      <li class="paper-authors">Li Li, Proyash Podder, and Endadul Hoque</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        Hot Topics in the Science of Security Symposium (HotSoS), Lawrence, KS, USA, Sep 2020.
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="#"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button"
+                      href="#"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#"  aria-controls="">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">Expat: Expectation-based Policy Analysis and Enforcement for
+                      Appified Smart-Home Platforms.</div>
+                    <ul>
+                      <li class="paper-authors">Moosa Yahyazadeh, Proyash Podder, Endadul Hoque, and Omar Chowdhury</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        ACM Symposium on Access Control Models and Technologies
+                        (SACMAT), Toronto, ON, Canada, Jun 2019.
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="https://dl.acm.org/doi/pdf/10.1145/3322431.3325107"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button"
+                      href="https://doi.org/10.1145/3322431.3325107"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#hoque2019a"  aria-controls="hoque2019a">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+                    <div class="collapse" id="hoque2019a">
+                      <div class="panel abstract-panel">
+                        <div class="panel-body abstract-text">
+                          This paper focuses on developing a security mechanism geared
+                          towards appified smart-home platforms.
+                          Such platforms often expose programming interfaces for developing automation apps that mechanize different tasks among smart sensors and actuators (e.g., automatically turning on the AC when the room temperature is above 80 F). Due to the lack of effective access control mechanisms, these automation apps can not only have unrestricted access to the user's sensitive information (e.g., the user is not at home) but also violate user expectations by performing undesired actions. As users often obtain these apps from unvetted sources, a malicious app can wreak havoc on a smart-home system by either violating the user's security and privacy, or creating safety hazards (e.g., turning on the oven when no one is at home). To mitigate such threats, we propose Expat which ensures that user expectations are never violated by the installed automation apps at runtime. To achieve this goal, Expat provides a platform-agnostic, formal specification language Uei for capturing user expectations of the installed automation apps' behavior. For effective authoring of these expectations (as policies) in Uei, Expat also allows a user to check the desired properties (e.g., consistency, entailment) of them; which due to their formal semantics can be easily discharged by an SMT solver. Expat then enforces Uei policies in situ with an inline reference monitor which can be realized using the same app programming interface exposed by the underlying platform. We instantiate Expat for one of the representative platforms, OpenHAB, and demonstrate it can effectively mitigate a wide array of threats by enforcing user expectations while incurring only modest performance overhead.
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">Automated Attack Discovery in TCP Congestion Control
+                      Using a Model-guided Approach</div>
+                    <ul>
+                      <li class="paper-authors">Sameul Jero, Endadul Hoque, David Choffnes,
+                        Alan Mislove, and Cristina Nita-Rotaru</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        Network and Distributed System Security Symposium
+                        (<a href="http://www.ndss-symposium.org/ndss2018/">NDSS</a>), San Diego, California, Feb 2018.
+                      </li>
+                      <li class="paper-venue">
+                        <span class="conf-tag" style="background-color:Tomato">
+                          Cisco Network Security Distinguished Paper Award
+                        </span>
+                      </li>
+                      <li class="paper-venue">
+                        <span class="conf-tag" style="background-color:SlateBlue">
+                          Media</span>
+                        <a href="https://www.internetsociety.org/blog/2018/02/ndss-2018-automating-process-vulnerability-discovery/"><strong>Link</strong></a>
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="pubs/TCPwn-NDSS2018.pdf"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button"
+                      href="https://www.ndss-symposium.org/wp-content/uploads/sites/25/2018/02/ndss2018_02A-1_Jero_paper.pdf"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#hoque2018a"  aria-controls="hoque2018a">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+                    <div class="collapse" id="hoque2018a">
+                      <div class="panel abstract-panel">
+                        <div class="panel-body abstract-text">
+                          One of the most important goals of TCP is to ensure
+                          fairness and prevent congestion collapse by implementing
+                          congestion control. Various attacks against TCP congestion control have
+                          been reported over the years, most of which have been discovered
+                          through manual analysis. In this paper, we propose an automated
+                          method that combines the generality of implementation-agnostic
+                          fuzzing with the precision of runtime analysis to find attacks
+                          against implementations of TCP congestion control. It uses a
+                          model-guided approach to generate abstract attack strategies, by
+                          leveraging a state machine model of TCP congestion control to
+                          find vulnerable state machine paths that an attacker could exploit
+                          to increase or decrease the throughput of a connection to his
+                          advantage. These abstract strategies are then mapped to concrete
+                          attack strategies, which consist of sequences of actions such as
+                          injection or modification of acknowledgements and a logical time
+                          for injection. We design and implement a virtualized platform,
+                          TCPwn, that consists of a a proxy-based attack injector and
+                          a TCP congestion control state tracker that uses only network
+                          traffic to create and inject these concrete attack strategies. We
+                          evaluated 5 TCP implementations from 4 Linux distributions and
+                          Windows 8.1. Overall, we found 11 classes of attacks, of which
+                          8 are new.
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">Analyzing Operational Behavior of Stateful
+                      Protocol Implementations for Detecting Semantic Bugs</div>
+                    <ul>
+                      <li class="paper-authors">Endadul Hoque, Omar Chowdhury,
+                        Sze Yiu Chau, Cristina Nita-Rotaru, and Ninghui Li</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        IEEE/IFIP International
+                        Conference on Dependable Systems and Networks
+                        (<a href="http://dsn2017.github.io/">DSN</a>), Denver, CO. June 2017
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="pubs/CHIRON_DSN2017.pdf"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button" href="#"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#hoque2017a"  aria-controls="hoque2017a">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+                    <div class="collapse" id="hoque2017a">
+                      <div class="panel abstract-panel">
+                        <div class="panel-body abstract-text">
+                          Network protocol implementations must comply with their specifications that include
+                          properties describing the correct operational behavior of the protocol in response to
+                          different temporal orderings of network events. Due to inconsistent interpretations
+                          of the specification, developers can unknowingly introduce semantic bugs, which cause the
+                          implementations to violate the respective properties. Detecting such bugs in stateful
+                          protocols becomes significantly difficult as their operations depend on their internal
+                          state machines and the complex interactions between the protocol logic. In this paper,
+                          we present an automated tool to help developers analyze their protocol implementations
+                          and detect semantic bugs violating the temporal properties of the protocols. Given an
+                          implementation, our tool (1) extracts the implemented finite state machine (FSM) of
+                          the protocol from the source code by symbolically exploring the code and (2) determines
+                          whether the extracted FSM violates given temporal properties by using an off-the-shelf
+                          model checker. We demonstrated the efficacy of our tool by applying it on 6 protocol
+                          implementations. We detected 11 semantic bugs (2 with security implications) when we
+                          analyzed these implementations against properties obtained from their publicly available specifications.
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">SymCerts: Practical Symbolic Execution For
+                          Exposing Noncompliance in X.509 Certificate
+                          Validation Implementations</div>
+                    <ul>
+                      <li class="paper-authors">Sze Yiu Chau, Omar Chowdhury,
+                        Endadul Hoque, Huangyi Ge, Aniket Kate, Cristina Nita-Rotaru,
+                        and Ninghui Li</li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        IEEE Symposium on Security and Privacy (<a href="http://www.ieee-security.org/TC/SP2017/">S&amp;P</a>),
+                        San Jose, CA. May 2017.
+                      </li>
+                      <li class="paper-venue">
+                        <span class="conf-tag" style="background-color:PaleVioletRed">
+                          Finalist - CSAW 2017 Applied Research Competition
+                        </span>
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="pubs/Symcert-SP2017.pdf"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button" href="http://www.ieee-security.org/TC/SP2017/papers/231.pdf"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#chau2017a"  aria-controls="chau2017a">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+                    <div class="collapse" id="chau2017a">
+                      <div class="panel abstract-panel">
+                        <div class="panel-body abstract-text">
+                          <p>
+                            The X.509 Public-Key Infrastructure has long been
+                            used in the SSL/TLS protocol to achieve authentication. A recent
+                            trend of Internet-of-Things (IoT) systems employing small
+                            footprint SSL/TLS libraries for secure communication has further
+                            propelled its prominence. The security guarantees provided by
+                            X.509 hinge on the assumption that the underlying implementation
+                            rigorously scrutinizes X.509 certificate chains, and accepts
+                            only the valid ones. Noncompliant implementations of X.509
+                            can potentially lead to attacks and/or interoperability issues. In
+                            the literature, black-box fuzzing has been used to find flaws
+                            in X.509 validation implementations; fuzzing, however, cannot
+                            guarantee coverage and thus severe flaws may remain undetected.
+                            To thoroughly analyze X.509 implementations in small footprint
+                            SSL/TLS libraries, this paper takes the complementary approach
+                            of using symbolic execution.
+                          </p>
+                          <p>
+                            We observe that symbolic execution, a technique proven to
+                            be effective in finding software implementation flaws, can also
+                            be leveraged to expose noncompliance in X.509 implementations.
+                            Directly applying an off-the-shelf symbolic execution engine on
+                            SSL/TLS libraries is, however, not practical due to the problem
+                            of path explosion. To this end, we propose the use of SymCerts,
+                            which are X.509 certificate chains carefully constructed with
+                            a mixture of symbolic and concrete values. Utilizing SymCerts
+                            and some domain-specific optimizations, we symbolically execute
+                            the certificate chain validation code of each library and extract
+                            path constraints describing its accepting and rejecting certificate
+                            universes. These path constraints help us identify missing checks
+                            in different libraries. For exposing subtle but intricate
+                            noncompliance with X.509 standard, we cross-validate the constraints
+                            extracted from different libraries to find further implementation
+                            flaws. Our analysis of 9 small footprint X.509 implementations
+                            has uncovered 48 instances of noncompliance. Findings and
+                            suggestions provided by us have already been incorporated by
+                            developers into newer versions of their libraries.
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">Automated Adversarial Testing of Unmodified
+                      Wireless Routing Implementations</div>
+                    <ul>
+                      <li class="paper-authors">Endadul Hoque, Hyojeong Lee, Rahul Potharaju,
+                        Charles Killian, and Cristina Nita-Rotaru</li>
+                      <li class="paper-venue">
+                        <span class="journal-tag">Journal</span>
+                        IEEE/ACM Transactions on Networking (<a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90">ToN</a>),
+                          vol 24, issue 6, Dec 2016.
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="pubs/Turret-W-ToN2016.pdf"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button" href="http://ieeexplore.ieee.org/document/7401140/"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#hoque2016c"  aria-controls="hoque2016c">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+                    <div class="collapse" id="hoque2016c">
+                      <div class="panel abstract-panel">
+                        <div class="panel-body abstract-text">
+                          Numerous routing protocols have been designed and subjected to model checking and simulations.
+                          However, model checking the design or testing the simulator-based prototype of a protocol does
+                          not guarantee that the implementation is free of bugs and vulnerabilities. Testing implementations
+                          beyond their basic functionality (also known as adversarial testing) can increase protocol robustness.
+                          We focus on automated adversarial testing of real-world implementations of wireless routing protocols.
+                          In our previous work we created Turret, a platform that uses a network emulator and virtualization
+                          to test unmodified binaries of general distributed systems. Based on Turret, we create Turret-W
+                          designed specifically for wireless routing protocols. Turret-W includes new functionalities such as
+                          differentiating routing messages from data messages to enable evaluation of attacks on the control
+                          plane and the data plane separately, support for several additional protocols (e.g., those that use
+                          homogeneous/heterogenous packet formats, those that run on geographic forwarding (not just IP), those
+                          that operate at the data link layer instead of the network layer), support for several additional
+                          attacks (e.g., replay attacks) and for establishment of adversarial side-channels that allow for
+                          collusion. Turret-W can test not only general routing attacks, but also wireless specific attacks
+                          such as wormhole. Using Turret-W on publicly available implementations of five representative routing
+                          protocols, we (re-)discovered 37 attacks and 3 bugs. All these bugs and 5 of the total attacks were
+                          not previously reported to the best of our knowledge.
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+
+                <!-- ===== START OF A PAPER INFO ==== -->
+                <div class="panel paper">
+                  <div class="panel-body paper-info">
+                    <div class="paper-title">Building Robust Distributed Systems and
+                      Network Protocols Using Adversarial Testing and Behavioral Analysis</div>
+                    <ul>
+                      <li class="paper-authors">
+                        Endadul Hoque and Cristina Nita-Rotaru
+                      </li>
+                      <li class="paper-venue">
+                        <span class="conf-tag">Conference</span>
+                        IEEE Cybersecurity Development Conference
+                          (<a href="http://secdev.ieee.org/2016/">SecDev</a>),
+                          Boston, MA. Nov 2016
+                      </li>
+                    </ul>
+
+                    <div class="btn-group pull-right paper-ctrl-btns">
+                      <!-- Download -->
+                      <!--=== CHANGE DOWNLOAD LINK === -->
+                      <a class="btn download-btn" type="button" href="#"
+                        data-toggle="tooltip" title="Download">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                      </a>
+                      <!-- External link -->
+                      <!--=== CHANGE EXTERNAL LINK === -->
+                      <a class="btn link-btn" type="button" href="http://ieeexplore.ieee.org/document/7839807/"
+                        data-toggle="tooltip" title="External link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+
+                      <!-- Abstract button -->
+                      <!-- ==== Make sure to check change "id" ==== -->
+                      <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                        data-target="#hoque2016b"  aria-controls="hoque2016b">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                    <!-- =================
+                         Paper abstract (ALWAYS change "id")
+                       ==================-->
+                    <div class="collapse" id="hoque2016b">
+                      <div class="panel abstract-panel">
+                        <div class="panel-body abstract-text">
+                          We describe our experience over the past five years with
+                          building more robust distributed systems and network protocols
+                          by using adversarial testing and behavioral analysis.
+                          We describe the benefits and disadvantages of both approaches
+                          and the design of the tools we have built (Turret, Turret-W,
+                          SNAKE, and Chiron). We discuss how we applied them to
+                          byzantine-resilient state machine replication, wireless routing
+                          protocols, transport protocols, TLS, and IoT implementation
+                          of application-level protocols.
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- ===== END OF a paper info ==== -->
+
+              </div>
+              <!-- ===== END OF Publication list ==== -->
+
+          </div>
+        </div> <!-- outermost panel -->
+
+      </div> <!-- row & publications-panel -->
+
+      </div>
+    </section>
+
+
+    <!--====================================================
+    ====== Publication modal (Full publication list) =======
+    ====================================================-->
+    <div class="portfolio-modal modal fade" id="publist" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="modal-body">
+                                <div class="modal-content-title">Publication List</div>
+
+                                <div class="row text-left">
+
+                                  <!-- ================
+                                       Group by year
+                                     ================-->
+
+                                     <!-- === START OF ONE YEAR PANEL ==== -->
+                                     <div class="panel panel-warning publications-panel">
+                                       <div class="panel-heading">
+                                         <h4 class="panel-title lower-heading">
+                                           <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 2018
+                                         </h4>
+                                       </div>
+                                       <div class="panel-body">
+
+                                         <div class="publicationList">
+
+                                           <!-- ===== START OF A PAPER INFO ==== -->
+                                           <div class="panel paper">
+                                             <div class="panel-body paper-info">
+                                               <div class="paper-title">Automated Attack Discovery in TCP Congestion Control
+                                                 Using a Model-guided Approach</div>
+                                               <ul>
+                                                 <li class="paper-authors">Sameul Jero, Endadul Hoque, David Choffnes,
+                                                   Alan Mislove, and Cristina Nita-Rotaru</li>
+                                                 <li class="paper-venue">
+                                                   <span class="conf-tag">Conference</span>
+                                                   Network and Distributed System Security Symposium
+                                                   (<a href="http://www.ndss-symposium.org/ndss2018/">NDSS</a>), San Diego, California, Feb 2018.
+                                                 </li>
+                                                 <li class="paper-venue">
+                                                   <span class="conf-tag" style="background-color:Tomato">
+                                                     Cisco Network Security Distinguished Paper Award
+                                                   </span>
+                                                 </li>
+                                                 <li class="paper-venue">
+                                                   <span class="conf-tag" style="background-color:SlateBlue">
+                                                     Media</span>
+                                                     <a href="https://www.internetsociety.org/blog/2018/02/ndss-2018-automating-process-vulnerability-discovery/"><strong>Link</strong></a>
+                                                 </li>
+                                               </ul>
+
+                                               <div class="btn-group pull-right paper-ctrl-btns">
+                                                 <!-- Download -->
+                                                 <!--=== CHANGE DOWNLOAD LINK === -->
+                                                 <a class="btn download-btn" type="button" href="pubs/TCPwn-NDSS2018.pdf"
+                                                   data-toggle="tooltip" title="Download">
+                                                   <i class="fa fa-download" aria-hidden="true"></i>
+                                                 </a>
+                                                 <!-- External link -->
+                                                 <!--=== CHANGE EXTERNAL LINK === -->
+                                                 <a class="btn link-btn" type="button"
+                                                 href="https://www.ndss-symposium.org/wp-content/uploads/sites/25/2018/02/ndss2018_02A-1_Jero_paper.pdf"
+                                                   data-toggle="tooltip" title="External link">
+                                                   <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                 </a>
+
+                                                 <!-- Abstract button -->
+                                                 <!-- ==== Make sure to check change "id" ==== -->
+                                                 <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                                                   data-target="#jero2018a_FL"  aria-controls="jero2018a_FL">
+                                                   <i class="fa fa-plus" aria-hidden="true"></i>
+                                                 </button>
+                                               </div>
+
+                                               <!-- =================
+                                                    Paper abstract (ALWAYS change "id")
+                                                  ==================-->
+                                               <div class="collapse" id="jero2018a_FL">
+                                                 <div class="panel abstract-panel">
+                                                   <div class="panel-body abstract-text">
+                                                     One of the most important goals of TCP is to ensure fairness and prevent congestion
+                                                     collapse by implementing congestion control. Various attacks against TCP congestion
+                                                     control have been reported over the years, most of which have been discovered through
+                                                     manual analysis. In this paper, we propose an automated method that combines the
+                                                     generality of implementation-agnostic fuzzing with the precision of runtime analysis
+                                                     to find attacks against implementations of TCP congestion control. It uses a
+                                                     model-guided approach to generate abstract attack strategies, by leveraging a
+                                                     state machine model of TCP congestion control to find vulnerable state machine
+                                                     paths that an attacker could exploit to increase or decrease the throughput of a
+                                                     connection to his advantage. These abstract strategies are then mapped to concrete
+                                                     attack strategies, which consist of sequences of actions such as injection or modification
+                                                     of acknowledgements and a logical time for injection. We design and implement a virtualized
+                                                     platform, TCPwn, that consists of a a proxy-based attack injector and a TCP congestion control
+                                                     state tracker that uses only network traffic to create and inject these concrete
+                                                     attack strategies. We evaluated 5 TCP implementations from 4 Linux distributions and
+                                                     Windows 8.1. Overall, we found 11 classes of attacks, of which 8 are new.
+                                                   </div>
+                                                 </div>
+                                               </div>
+
+                                             </div>
+                                           </div>
+                                           <!-- ===== END OF a paper info ==== -->
+
+                                         </div> <!-- end of publicationList for this year -->
+
+                                       </div> <!-- panel body of year panel -->
+                                     </div>
+                                     <!-- === END OF ONE YEAR PANEL ==== -->
+
+
+
+
+                                    <!-- === START OF ONE YEAR PANEL ==== -->
+                                    <div class="panel panel-warning publications-panel">
+                                      <div class="panel-heading">
+                                        <h4 class="panel-title lower-heading">
+                                          <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 2017
+                                        </h4>
+                                      </div>
+                                      <div class="panel-body">
+
+                                        <div class="publicationList">
+
+                                          <!-- ===== START OF A PAPER INFO ==== -->
+                                          <div class="panel paper">
+                                            <div class="panel-body paper-info">
+                                              <div class="paper-title">Analyzing Operational Behavior of Stateful
+                                                Protocol Implementations for Detecting Semantic Bugs</div>
+                                              <ul>
+                                                <li class="paper-authors">Endadul Hoque, Omar Chowdhury,
+                                                  Sze Yiu Chau, Cristina Nita-Rotaru, and Ninghui Li</li>
+                                                <li class="paper-venue">
+                                                  <span class="conf-tag">Conference</span>
+                                                  IEEE/IFIP International
+                                                  Conference on Dependable Systems and Networks
+                                                  (<a href="http://dsn2017.github.io/">DSN</a>), Denver, CO. June 2017
+                                                </li>
+                                              </ul>
+
+                                              <div class="btn-group pull-right paper-ctrl-btns">
+                                                <!-- Download -->
+                                                <!--=== CHANGE DOWNLOAD LINK === -->
+                                                <a class="btn download-btn" type="button" href="pubs/CHIRON_DSN2017.pdf"
+                                                  data-toggle="tooltip" title="Download">
+                                                  <i class="fa fa-download" aria-hidden="true"></i>
+                                                </a>
+                                                <!-- External link -->
+                                                <!--=== CHANGE EXTERNAL LINK === -->
+                                                <a class="btn link-btn" type="button" href="#"
+                                                  data-toggle="tooltip" title="External link">
+                                                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+
+                                                <!-- Abstract button -->
+                                                <!-- ==== Make sure to check change "id" ==== -->
+                                                <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                                                  data-target="#hoque2017a_FL"  aria-controls="hoque2017a_FL">
+                                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                                                </button>
+                                              </div>
+
+                                              <!-- =================
+                                                   Paper abstract (ALWAYS change "id")
+                                                 ==================-->
+                                              <div class="collapse" id="hoque2017a_FL">
+                                                <div class="panel abstract-panel">
+                                                  <div class="panel-body abstract-text">
+                                                    Network protocol implementations must comply with their specifications that include
+                                                    properties describing the correct operational behavior of the protocol in response to
+                                                    different temporal orderings of network events. Due to inconsistent interpretations
+                                                    of the specification, developers can unknowingly introduce semantic bugs, which cause the
+                                                    implementations to violate the respective properties. Detecting such bugs in stateful
+                                                    protocols becomes significantly difficult as their operations depend on their internal
+                                                    state machines and the complex interactions between the protocol logic. In this paper,
+                                                    we present an automated tool to help developers analyze their protocol implementations
+                                                    and detect semantic bugs violating the temporal properties of the protocols. Given an
+                                                    implementation, our tool (1) extracts the implemented finite state machine (FSM) of
+                                                    the protocol from the source code by symbolically exploring the code and (2) determines
+                                                    whether the extracted FSM violates given temporal properties by using an off-the-shelf
+                                                    model checker. We demonstrated the efficacy of our tool by applying it on 6 protocol
+                                                    implementations. We detected 11 semantic bugs (2 with security implications) when we
+                                                    analyzed these implementations against properties obtained from their publicly available specifications.
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                            </div>
+                                          </div>
+                                          <!-- ===== END OF a paper info ==== -->
+
+
+                                          <!-- ===== START OF A PAPER INFO ==== -->
+                                          <div class="panel paper">
+                                            <div class="panel-body paper-info">
+                                              <div class="paper-title">SymCerts: Practical Symbolic Execution For
+                                                    Exposing Noncompliance in X.509 Certificate
+                                                    Validation Implementations</div>
+                                              <ul>
+                                                <li class="paper-authors">Sze Yiu Chau, Omar Chowdhury,
+                                                  Endadul Hoque, Huangyi Ge, Aniket Kate, Cristina Nita-Rotaru,
+                                                  and Ninghui Li</li>
+                                                <li class="paper-venue">
+                                                  <span class="conf-tag">Conference</span>
+                                                  IEEE Symposium on Security and Privacy (<a href="http://www.ieee-security.org/TC/SP2017/">S&amp;P</a>),
+                                                  San Jose, CA. May 2017. [<em>Acceptance rate: 13%</em>]
+                                                </li>
+                                                <li class="paper-venue">
+                                                  <span class="conf-tag" style="background-color:PaleVioletRed">
+                                                    Finalist - CSAW 2017 Applied Research Competition
+                                                  </span>
+                                                </li>
+                                              </ul>
+
+                                              <div class="btn-group pull-right paper-ctrl-btns">
+                                                <!-- Download -->
+                                                <!--=== CHANGE DOWNLOAD LINK === -->
+                                                <a class="btn download-btn" type="button" href="pubs/Symcert-SP2017.pdf"
+                                                  data-toggle="tooltip" title="Download">
+                                                  <i class="fa fa-download" aria-hidden="true"></i>
+                                                </a>
+                                                <!-- External link -->
+                                                <!--=== CHANGE EXTERNAL LINK === -->
+                                                <a class="btn link-btn" type="button" href="http://www.ieee-security.org/TC/SP2017/papers/231.pdf"
+                                                  data-toggle="tooltip" title="External link">
+                                                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+
+                                                <!-- Abstract button -->
+                                                <!-- ==== Make sure to check change "id" ==== -->
+                                                <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                                                  data-target="#chau2017a_FL"  aria-controls="chau2017a_FL">
+                                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                                                </button>
+                                              </div>
+
+                                              <!-- =================
+                                                   Paper abstract (ALWAYS change "id")
+                                                 ==================-->
+                                              <div class="collapse" id="chau2017a_FL">
+                                                <div class="panel abstract-panel">
+                                                  <div class="panel-body abstract-text">
+                                                    <p>
+                                                      The X.509 Public-Key Infrastructure has long been
+                                                      used in the SSL/TLS protocol to achieve authentication. A recent
+                                                      trend of Internet-of-Things (IoT) systems employing small
+                                                      footprint SSL/TLS libraries for secure communication has further
+                                                      propelled its prominence. The security guarantees provided by
+                                                      X.509 hinge on the assumption that the underlying implementation
+                                                      rigorously scrutinizes X.509 certificate chains, and accepts
+                                                      only the valid ones. Noncompliant implementations of X.509
+                                                      can potentially lead to attacks and/or interoperability issues. In
+                                                      the literature, black-box fuzzing has been used to find flaws
+                                                      in X.509 validation implementations; fuzzing, however, cannot
+                                                      guarantee coverage and thus severe flaws may remain undetected.
+                                                      To thoroughly analyze X.509 implementations in small footprint
+                                                      SSL/TLS libraries, this paper takes the complementary approach
+                                                      of using symbolic execution.
+                                                    </p>
+                                                    <p>
+                                                      We observe that symbolic execution, a technique proven to
+                                                      be effective in finding software implementation flaws, can also
+                                                      be leveraged to expose noncompliance in X.509 implementations.
+                                                      Directly applying an off-the-shelf symbolic execution engine on
+                                                      SSL/TLS libraries is, however, not practical due to the problem
+                                                      of path explosion. To this end, we propose the use of SymCerts,
+                                                      which are X.509 certificate chains carefully constructed with
+                                                      a mixture of symbolic and concrete values. Utilizing SymCerts
+                                                      and some domain-specific optimizations, we symbolically execute
+                                                      the certificate chain validation code of each library and extract
+                                                      path constraints describing its accepting and rejecting certificate
+                                                      universes. These path constraints help us identify missing checks
+                                                      in different libraries. For exposing subtle but intricate
+                                                      noncompliance with X.509 standard, we cross-validate the constraints
+                                                      extracted from different libraries to find further implementation
+                                                      flaws. Our analysis of 9 small footprint X.509 implementations
+                                                      has uncovered 48 instances of noncompliance. Findings and
+                                                      suggestions provided by us have already been incorporated by
+                                                      developers into newer versions of their libraries.
+
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                            </div>
+                                          </div>
+                                          <!-- ===== END OF a paper info ==== -->
+
+                                        </div> <!-- end of publicationList for this year -->
+
+                                      </div> <!-- panel body of year panel -->
+                                    </div>
+                                    <!-- === END OF ONE YEAR PANEL ==== -->
+
+
+
+                               <!-- === START OF ONE YEAR PANEL ==== -->
+                               <div class="panel panel-warning publications-panel">
+                                 <div class="panel-heading">
+                                   <h4 class="panel-title lower-heading">
+                                     <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 2016
+                                   </h4>
+                                 </div>
+                                 <div class="panel-body">
+
+                                   <div class="publicationList">
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">Automated Adversarial Testing of Unmodified
+                                           Wireless Routing Implementations</div>
+                                         <ul>
+                                           <li class="paper-authors">Endadul Hoque, Hyojeong Lee, Rahul Potharaju,
+                                             Charles Killian, and Cristina Nita-Rotaru</li>
+                                           <li class="paper-venue">
+                                             <span class="journal-tag">Journal</span>
+                                             IEEE/ACM Transactions on Networking (<a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90">ToN</a>),
+                                               vol 24, issue 6, Dec 2016.
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn" type="button" href="pubs/Turret-W-ToN2016.pdf"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn" type="button" href="http://ieeexplore.ieee.org/document/7401140/"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                                             data-target="#hoque2016c_FL"  aria-controls="hoque2016c_FL">
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+
+                                         <!-- =================
+                                              Paper abstract (ALWAYS change "id")
+                                            ==================-->
+                                         <div class="collapse" id="hoque2016c_FL">
+                                           <div class="panel abstract-panel">
+                                             <div class="panel-body abstract-text">
+                                               Numerous routing protocols have been designed and subjected to model checking and simulations.
+                                               However, model checking the design or testing the simulator-based prototype of a protocol does
+                                               not guarantee that the implementation is free of bugs and vulnerabilities. Testing implementations
+                                               beyond their basic functionality (also known as adversarial testing) can increase protocol robustness.
+                                               We focus on automated adversarial testing of real-world implementations of wireless routing protocols.
+                                               In our previous work we created Turret, a platform that uses a network emulator and virtualization
+                                               to test unmodified binaries of general distributed systems. Based on Turret, we create Turret-W
+                                               designed specifically for wireless routing protocols. Turret-W includes new functionalities such as
+                                               differentiating routing messages from data messages to enable evaluation of attacks on the control
+                                               plane and the data plane separately, support for several additional protocols (e.g., those that use
+                                               homogeneous/heterogenous packet formats, those that run on geographic forwarding (not just IP), those
+                                               that operate at the data link layer instead of the network layer), support for several additional
+                                               attacks (e.g., replay attacks) and for establishment of adversarial side-channels that allow for
+                                               collusion. Turret-W can test not only general routing attacks, but also wireless specific attacks
+                                               such as wormhole. Using Turret-W on publicly available implementations of five representative routing
+                                               protocols, we (re-)discovered 37 attacks and 3 bugs. All these bugs and 5 of the total attacks were
+                                               not previously reported to the best of our knowledge.
+                                             </div>
+                                           </div>
+                                         </div>
+
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">Building Robust Distributed Systems and
+                                           Network Protocols Using Adversarial Testing and Behavioral Analysis</div>
+                                         <ul>
+                                           <li class="paper-authors">
+                                             Endadul Hoque and Cristina Nita-Rotaru
+                                           </li>
+                                           <li class="paper-venue">
+                                             <span class="conf-tag">Conference</span>
+                                             IEEE Cybersecurity Development Conference
+                                               (<a href="http://secdev.ieee.org/2016/">SecDev</a>),
+                                               Boston, MA. Nov 2016
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn" type="button" href="#"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn" type="button" href="http://ieeexplore.ieee.org/document/7839807/"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" type="button" data-toggle="collapse" aria-expanded="false"
+                                             data-target="#hoque2016b_FL"  aria-controls="hoque2016b_FL">
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+
+                                         <!-- =================
+                                              Paper abstract (ALWAYS change "id")
+                                            ==================-->
+                                         <div class="collapse" id="hoque2016b_FL">
+                                           <div class="panel abstract-panel">
+                                             <div class="panel-body abstract-text">
+                                               We describe our experience over the past five years with
+                                               building more robust distributed systems and network protocols
+                                               by using adversarial testing and behavioral analysis.
+                                               We describe the benefits and disadvantages of both approaches
+                                               and the design of the tools we have built (Turret, Turret-W,
+                                               SNAKE, and Chiron). We discuss how we applied them to
+                                               byzantine-resilient state machine replication, wireless routing
+                                               protocols, transport protocols, TLS, and IoT implementation
+                                               of application-level protocols.
+                                             </div>
+                                           </div>
+                                         </div>
+
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">Practical Intrusion-Tolerant Networks</div>
+                                         <ul>
+                                           <li class="paper-authors">Daniel Obenshain, Thomas Tantillo, Amy Babay,
+                                             John Schultz, Andrew Newell, Endadul Hoque, Yair Amir, and Cristina Nita-Rotaru</li>
+                                           <li class="paper-venue">
+                                             <span class="conf-tag">Conference</span>
+                                             International Conference on Distributed Computing Systems
+                                             (<a href="http://www-higashi.ist.osaka-u.ac.jp/icdcs2016/">ICDCS</a>), Japan, Jun 2016.
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn" type="button" href="#"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn" type="button" href="http://ieeexplore.ieee.org/document/7536504/"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" disabled="disabled" type="button">
+                                              <!-- data-toggle="collapse" aria-expanded="false"
+                                             data-target="#obenshain2016"  aria-controls="obenshain2016"> -->
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+
+                                         <!-- =================
+                                              Paper abstract (ALWAYS change "id")
+                                            ==================-->
+                                         <!-- <div class="collapse" id="">
+                                           <div class="panel abstract-panel">
+                                             <div class="panel-body abstract-text">
+                                               ABSTRACT
+                                             </div>
+                                           </div>
+                                         </div> -->
+
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">Detecting specification noncompliance in
+                                           network protocol implementations</div>
+                                         <ul>
+                                           <li class="paper-authors">E. Hoque, O. Chowdhury, S. Y. Chau, C. Nita-Rotaru, and N. Li</li>
+                                           <li class="paper-venue">
+                                             <span class="workshop-tag">Poster</span>
+                                             USENIX Annual Technical Conference
+                                             (<a href="https://www.usenix.org/conference/atc16">ATC</a>), Denver CO, Jun 2016.
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn disabled" type="button" href="#"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn disabled" type="button" href="#"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" disabled="disabled" type="button">
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">A Testing Platform for Teaching Secure
+                                           Distributed Systems Programming</div>
+                                         <ul>
+                                           <li class="paper-authors">E. Hoque, H. Lee, C. Killian, and C. Nita-Rotaru</li>
+                                           <li class="paper-venue">
+                                             <span class="tech-report-tag">Tech-Report</span>
+                                             Department of Computer Science, Purdue University, TR 16-002, 2016.
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn" type="button" href="http://docs.lib.purdue.edu/cstech/1779"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn" type="button" href="http://docs.lib.purdue.edu/cstech/1779"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" disabled="disabled" type="button">
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+
+                                   </div> <!-- end of publicationList for this year -->
+
+                                 </div> <!-- panel body of year panel -->
+                               </div>
+                               <!-- === END OF ONE YEAR PANEL ==== -->
+
+
+                               <!-- === START OF ONE YEAR PANEL ==== -->
+                               <div class="panel panel-warning publications-panel">
+                                 <div class="panel-heading">
+                                   <h4 class="panel-title lower-heading">
+                                     <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 2015
+                                   </h4>
+                                 </div>
+                                 <div class="panel-body">
+
+                                   <div class="publicationList">
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">Taming Epidemic Outbreaks in Mobile Adhoc Networks</div>
+                                         <ul>
+                                           <li class="paper-authors">E. Hoque, R. Potharaju, C. Nita-Rotaru,
+                                             S. Venkatesh, and S. Sarkar</li>
+                                           <li class="paper-venue">
+                                             <span class="journal-tag">Journal</span>
+                                             <a href="https://www.journals.elsevier.com/ad-hoc-networks">Ad Hoc Networks</a>,
+                                             Elsevier, Vol. 24, part A, Jan 2015.
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn" type="button" href="#"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn" type="button" href="http://dx.doi.org/10.1016/j.adhoc.2014.07.031"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" type="button" disabled="disabled">
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+
+                                   </div> <!-- end of publicationList for this year -->
+
+                                 </div> <!-- panel body of year panel -->
+                               </div>
+                               <!-- === END OF ONE YEAR PANEL ==== -->
+
+
+
+                               <!-- === START OF ONE YEAR PANEL ==== -->
+                               <div class="panel panel-warning publications-panel">
+                                 <div class="panel-heading">
+                                   <h4 class="panel-title lower-heading">
+                                     <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 2014
+                                   </h4>
+                                 </div>
+                                 <div class="panel-body">
+
+                                   <div class="publicationList">
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">Turret: A Platform for Automated
+                                           Attack Finding in Unmodified Distributed System Implementations</div>
+                                         <ul>
+                                           <li class="paper-authors">Hyojeong Lee, Jeff Seibert,
+                                             Endadul Hoque, Charles Killian, and Cristina Nita-Rotaru</li>
+                                           <li class="paper-venue">
+                                             <span class="conf-tag">Conference</span>
+                                             International Conference on Distributed Computing Systems
+                                             (<a href="http://lsd.ls.fi.upm.es/icdcs2014">ICDCS</a>), Madrid, Spain, July 2014.
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn" type="button" href="#"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn" type="button" href="http://ieeexplore.ieee.org/document/6888941/"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" type="button" disabled="disabled">
+                                             <!-- data-toggle="collapse" aria-expanded="false"
+                                             data-target="#chau2017a"  aria-controls="chau2017a"> -->
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+
+                                         <!-- =================
+                                              Paper abstract (ALWAYS change "id")
+                                            ==================-->
+                                         <!-- <div class="collapse" id="chau2017a">
+                                           <div class="panel abstract-panel">
+                                             <div class="panel-body abstract-text">
+                                               ABSTRACT
+                                             </div>
+                                           </div>
+                                         </div> -->
+
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+
+                                   </div> <!-- end of publicationList for this year -->
+
+                                 </div> <!-- panel body of year panel -->
+                               </div>
+                               <!-- === END OF ONE YEAR PANEL ==== -->
+
+
+
+                               <!-- === START OF ONE YEAR PANEL ==== -->
+                               <div class="panel panel-warning publications-panel">
+                                 <div class="panel-heading">
+                                   <h4 class="panel-title lower-heading">
+                                     <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 2013
+                                   </h4>
+                                 </div>
+                                 <div class="panel-body">
+
+                                   <div class="publicationList">
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">Adversarial testing of wireless routing implementations</div>
+                                         <ul>
+                                           <li class="paper-authors">E. Hoque, H. Lee, R. Potharaju, C. Killian, and C. Nita-Rotaru</li>
+                                           <li class="paper-venue">
+                                             <span class="conf-tag">Conference</span>
+                                             ACM conference on Security and privacy in wireless and mobile networks
+                                             (<a href="http://www.sigsac.org/wisec/WiSec2013/">WiSec</a>),
+                                             Budapest, Hungary, April 2013.
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn" type="button" href="#"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn" type="button" href="http://dl.acm.org/citation.cfm?id=2462120"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" type="button" disabled="disabled">
+                                             <!-- data-toggle="collapse" aria-expanded="false"
+                                             data-target="#chau2017a"  aria-controls="chau2017a"> -->
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+
+                                   </div> <!-- end of publicationList for this year -->
+
+                                 </div> <!-- panel body of year panel -->
+                               </div>
+                               <!-- === END OF ONE YEAR PANEL ==== -->
+
+
+                               <!-- === START OF ONE YEAR PANEL ==== -->
+                               <div class="panel panel-warning publications-panel">
+                                 <div class="panel-heading">
+                                   <h4 class="panel-title lower-heading">
+                                     <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 2012
+                                   </h4>
+                                 </div>
+                                 <div class="panel-body">
+
+                                   <div class="publicationList">
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">Closing the Pandora's Box: Defenses
+                                           for Thwarting Epidemic Outbreaks in Mobile Adhoc Networks</div>
+                                         <ul>
+                                           <li class="paper-authors">R. Potharaju, E. Hoque, C. Nita-Rotaru,
+                                             S. S. Venkatesh, and S. Sarkar</li>
+                                           <li class="paper-venue">
+                                             <span class="conf-tag">Conference</span>
+                                             IEEE International Conference on Mobile Ad hoc and Sensor Systems
+                                             (<a href="http://edas.info/web/ieeemass2012/">MASS</a>), Las Vegas, NV, Oct. 2012.
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn disabled" type="button" href="#"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn disabled" type="button" href="#"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" type="button" disabled="disabled">
+                                             <!-- data-toggle="collapse" aria-expanded="false"
+                                             data-target="#chau2017a"  aria-controls="chau2017a"> -->
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+
+                                   </div> <!-- end of publicationList for this year -->
+
+                                 </div> <!-- panel body of year panel -->
+                               </div>
+                               <!-- === END OF ONE YEAR PANEL ==== -->
+
+
+
+                               <!-- === START OF ONE YEAR PANEL ==== -->
+                               <div class="panel panel-warning publications-panel">
+                                 <div class="panel-heading">
+                                   <h4 class="panel-title lower-heading">
+                                     <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 2011
+                                   </h4>
+                                 </div>
+                                 <div class="panel-body">
+
+                                   <div class="publicationList">
+
+                                     <!-- ===== START OF A PAPER INFO ==== -->
+                                     <div class="panel paper">
+                                       <div class="panel-body paper-info">
+                                         <div class="paper-title">AnonPri: An Efficient Anonymous Private Authentication Protocol</div>
+                                         <ul>
+                                           <li class="paper-authors">Endadul Hoque, Farzana Rahman, and Sheikh Iqbal Ahamed</li>
+                                           <li class="paper-venue">
+                                             <span class="conf-tag">Conference</span>
+                                             IEEE International Conference on Pervasive Computing and
+                                             Communications (<a href="http://percom.org/">PerCom</a>), Seattle, WA, March 2011.
+                                             [<em>Acceptance rate: 11%</em>]
+                                           </li>
+                                         </ul>
+
+                                         <div class="btn-group pull-right paper-ctrl-btns">
+                                           <!-- Download -->
+                                           <!--=== CHANGE DOWNLOAD LINK === -->
+                                           <a class="btn download-btn" type="button" href="#"
+                                             data-toggle="tooltip" title="Download">
+                                             <i class="fa fa-download" aria-hidden="true"></i>
+                                           </a>
+                                           <!-- External link -->
+                                           <!--=== CHANGE EXTERNAL LINK === -->
+                                           <a class="btn link-btn" type="button" href="http://ieeexplore.ieee.org/document/5767573/"
+                                             data-toggle="tooltip" title="External link">
+                                             <i class="fa fa-external-link" aria-hidden="true"></i>
+                                           </a>
+
+                                           <!-- Abstract button -->
+                                           <!-- ==== Make sure to check change "id" ==== -->
+                                           <button class="btn abstract-btn" type="button" disabled="disabled">
+                                             <!-- data-toggle="collapse" aria-expanded="false"
+                                             data-target="#chau2017a"  aria-controls="chau2017a"> -->
+                                             <i class="fa fa-plus" aria-hidden="true"></i>
+                                           </button>
+                                         </div>
+
+                                       </div>
+                                     </div>
+                                     <!-- ===== END OF a paper info ==== -->
+
+
+                                   </div> <!-- end of publicationList for this year -->
+
+                                 </div> <!-- panel body of year panel -->
+                               </div>
+                               <!-- === END OF ONE YEAR PANEL ==== -->
+
+                              </div> <!-- row of modal content -->
+
+                              <!-- === Additional papers === -->
+                              <div class="row">
+                                <h4 class="lower-heading text-center">
+                                  A complete list with older publications can be found
+                                  on my <a href="https://scholar.google.com/citations?user=dSLXaKUAAAAJ">google scholar</a> page
+                                </h4>
+                              </div>
+
+                              <div class="row">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>&nbsp; Close window</button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end of full publication modal -->
+
+
+    <!--== Teaching section ==-->
+    <section id="teaching" class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="section-heading">Teaching</div>
+          </div>
+        </div>
+
+
+
+        <div class="row text-left">
+          <div class="col-xs-offset-1 col-sm-offset-1">
+            <h3>Fall 2021</h3>
+            <ul>
+              <li>
+                <h4 class="lower-heading">CSE 486: Design of Operating Systems
+                [<a href="https://blackboard.syr.edu/">course page</a>]
+                </h4>
+              </li>
+              <li>
+                <h4 class="lower-heading">CIS600/CIS700/CSE691/CSE791: Security and Assurance of Software Stacks
+                [<a href="https://blackboard.syr.edu/">course page</a>]
+                </h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="row text-left">
+          <div class="col-xs-offset-1 col-sm-offset-1">
+            <h3>Spring 2021</h3>
+            <ul>
+              <li>
+                <h4 class="lower-heading">CIS 657: Principles of Operating Systems
+                [<a href="https://blackboard.syr.edu/">course page</a>]
+                </h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="row text-left">
+          <div class="col-xs-offset-1 col-sm-offset-1">
+            <h3>Fall 2020</h3>
+            <ul>
+              <li>
+                <h4 class="lower-heading">CIS600/CIS700/CSE691/CSE791: Security and Assurance of Emerging Areas
+                [<a href="https://blackboard.syr.edu/">course page</a>]
+                </h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="row text-left">
+          <div class="col-xs-offset-1 col-sm-offset-1">
+            <h3>Spring 2020</h3>
+            <ul>
+              <li>
+                <h4 class="lower-heading">CIS 657: Principles of Operating Systems
+                [<a href="https://blackboard.syr.edu/">course page</a>]
+                </h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="row text-left">
+          <div class="col-xs-offset-1 col-sm-offset-1">
+            <h3>Fall 2019</h3>
+            <ul>
+              <li>
+                <h4 class="lower-heading">CSE 791: Security of Systems, Networking, IoT
+                [<a href="pubs/CSE791-Ad.pdf">quick info</a>] &nbsp; [<a href="https://blackboard.syr.edu/">course page</a>]
+                </h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row text-left">
+          <div class="col-xs-offset-1 col-sm-offset-1">
+            <h3 class="lower-heading">Courses Taught at FIU</h3>
+            <ul>
+              <li>
+                <h4 class="lower-heading">CIS 5373: Systems Security</h4>
+                [Spring 2019, Fall 2018, Fall 2017]
+              </li>
+              <li>
+                <h4 class="lower-heading">COT 5428: Formal Foundations of Cybersecurity </h4>
+                [Spring 2018]
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div> <!-- container -->
+    </section>
+
+
+    <!--== Service section ==-->
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="section-heading">Service</div>
+          </div>
+        </div>
+
+        <div class="row text-left">
+          <div class="col-xs-offset-1 col-sm-offset-1">
+            <h3 class="lower-heading">Program Committee Member</h3>
+            <ul>
+              <li>
+                <h4 class="lower-heading">
+                  2019:
+                  <a href="https://www.ndss-symposium.org/">NDSS'19</a>,
+                  <a href="https://www2019.thewebconf.org/">WebConference'19</a> (formerly known as WWW2019),
+                  <a href="https://icnp19.cs.ucr.edu/">ICNP'19</a>
+                </h4>
+              </li>
+
+              <li>
+                <h4 class="lower-heading">
+                  2018:
+                  <a href="https://www.ndss-symposium.org/ndss2018/">NDSS'18</a>,
+                  <a href="http://icdcs2018.ocg.at/">ICDCS'18</a>,
+                  <a href="http://edcc2018.info.uaic.ro/">EDCC'18</a>,
+                  <a href="http://icnp18.cs.ucr.edu/">ICNP'18</a>
+                </h4>
+              </li>
+            </ul>
+            <h3 class="lower-heading">Program Chair/Co-chair</h3>
+            <ul>
+              <li>
+                <h4 class="lower-heading">
+                  <a href="https://periot.github.io/2020/">PerIoT'20</a>,
+                  <a href="https://periot.github.io/2019/">PerIoT'19</a>,
+                  <a href="https://periot.github.io/2018/">PerIoT'18</a>,
+                  <a href="https://periot.github.io/2017/">PerIoT'17</a></h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> <!-- container -->
+    </section>
+
+
+    <!-- Team Section -->
+    <!-- <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Kay Garland</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Clients Aside -->
+    <!-- <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside> -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Me</h2>
+                    <p class="Xlarge text-white thin-heading">The best way to contact me is through email!</p>
+                </div>
+            </div>
+            <div class="row text-white">
+              <!-- <div class="col-lg-12"> -->
+                <div class="text-bold text-Xlarge text-center">
+                  <div class="col-md-4 col-sm-4">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;
+                    enhoque AT syr.edu
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+                    (315)-443-3948
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;
+                    <a href="https://goo.gl/maps/NV5D6nbNHHq1pRtk7">CST 4-187</a>
+                  </div>
+                </div>
+              <!-- </div> -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                (Re-)Designed by <a href="#page-top">Endadul Hoque</a> (Base template:
+                <a href="https://startbootstrap.com/template-overviews/agency/">Agency</a>)
+              </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+
+    <!-- Project modal 1 (semanticbugProject) -->
+    <div class="portfolio-modal modal fade" id="semanticbugProject" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <div class="modal-body">
+                                <!-- project name -->
+                                <div class="project-title">Semantic Bug Detection via Compliance Checking</div>
+
+                                <!-- Project Details Go Here -->
+
+                                <!-- one block of info (Overview) -->
+                                <div class="row text-left">
+                                  <!-- panel -->
+                                  <div class="panel panel-info project-panel">
+                                    <div class="panel-heading">
+                                      <div class="panel-title panel-title-style">
+                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp; Overview
+                                      </div>
+                                    </div>
+                                    <div class="panel-body">
+                                      <p class="description text-normal">
+                                        Network protocols are notorious for their complexity. Implementing them correctly is
+                                        crucial to the success of secure communication. However, research efforts to defend these
+                                        implementations by advocating best practices in secure programming or formally verifying
+                                        the correctness of the protocol designs are not always effective, nor sufficient, as indicated by
+                                        the frequent reports of bugs discovered in protocol implementations after their deployment.
+                                        This is because developers often unwittingly introduce elusive functional bugs
+                                        into the code, resulting in deviations from protocol-compliant behavior. Such noncompliance
+                                        instances can lead to incorrect results, interoperability issues, or critical security implications
+                                        (e.g., impersonation attacks, breaking security guarantees).
+                                        Detecting functional bugs is hard because while violating the protocol-compliant behavior,
+                                        these bugs do not always display externally observable artifacts (e.g., crash). Therefore,
+                                        in our research, we aim to create automated techniques -- by leveraging program analysis
+                                        (e.g., symbolic execution) and formal verification (e.g., model checking) -- to check protocol
+                                        implementations for compliance with their respective specifications.
+                                      </p>
+                                    </div>
+                                  </div><!-- outermost panel -->
+                                </div><!-- one block of info -->
+
+                                <!-- one block of info (publications) -->
+                                <div class="row text-left">
+                                  <!-- panel -->
+                                  <div class="panel panel-info project-panel">
+                                    <div class="panel-heading">
+                                      <div class="panel-title panel-title-style">
+                                        <i class="fa fa-book" aria-hidden="true"></i>&nbsp; Publications
+                                      </div>
+                                    </div>
+                                    <div class="panel-body">
+                                      <div class="text-normal">
+                                        <h5>Conferences</h5>
+                                        <ul class="paper-list-for-project">
+                                          <li>
+                                            Endadul Hoque, Omar Chowdhury, Sze Yiu Chau, Cristina Nita-Rotaru, and Ninghui Li.
+                                            "Analyzing Operational Behavior of Stateful Protocol Implementations for Detecting Semantic Bugs."
+                                            IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), Denver, CO. June 2017.
+                                          </li>
+                                          <li>
+                                            Sze Yiu Chau, Omar Chowdhury, Endadul Hoque, Huangyi Ge, Aniket Kate, Cristina Nita-Rotaru, and Ninghui Li.
+                                            "SymCerts: Practical Symbolic Execution For Exposing Noncompliance in X.509 Certificate Validation Implementations."
+                                            IEEE Symposium on Security and Privacy (S&amp;P), San Jose, CA. May 2017.
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div><!-- outermost panel -->
+                                </div><!-- one block of info -->
+
+
+                                <!-- one block of info (Members) -->
+                                <div class="row text-left">
+                                  <!-- panel -->
+                                  <div class="panel panel-info project-panel">
+                                    <div class="panel-heading">
+                                      <div class="panel-title panel-title-style">
+                                        <i class="fa fa-users" aria-hidden="true"></i>&nbsp; Members
+                                      </div>
+                                    </div>
+                                    <div class="panel-body">
+                                      <div class="text-normal">
+                                        <h5>Collaborators</h5>
+                                        <ul class="paper-list-for-project">
+                                          <li>
+                                            Omar Chowdhury, University of Iowa
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div><!-- outermost panel -->
+                                </div><!-- one block of info -->
+
+
+                                <!-- one block of info -->
+                                <!-- <div class="row text-left">
+                                  <div class="panel panel-info project-panel">
+                                    <div class="panel-heading">
+                                      <div class="panel-title panel-title-style">
+                                        <i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp; Funding
+                                      </div>
+                                    </div>
+                                    <div class="panel-body">
+                                      <p class="text-normal">
+                                        This project is funded by ...
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div> -->
+                                <!-- one block of info -->
+
+                                <div class="row">
+                                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Project modal 2 (project2) -->
+    <div class="portfolio-modal modal fade" id="project2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <div class="modal-body">
+                                <!-- project name -->
+                                <div class="project-title">Vulnerable Execution Discovery in Internet Security Protocols</div>
+
+                                <!-- Project Details Go Here -->
+                                <div class="text-danger">
+                                  <p class="Xlarge">
+                                    &nbsp;
+                                  </p>
+                                  <p class="Xlarge">
+                                    For details, please contact me!
+                                  </p>
+                                </div>
+
+                                <div class="row">
+                                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+
+    <!-- less JavaScript -->
+    <!-- <script src="js/less.min.js"></script> -->
+
+    <!-- initialize tooltip -->
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+
+</body>
+</html>
